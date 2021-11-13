@@ -17,9 +17,7 @@ body {
   --section-background: #f6f6f6;
   --main-duration: 0.5s;
 }
-head {
-  width: 100%;
-}
+
 /* global ruls */
 @media (max-width: 768px) {
   .features .countaner {
@@ -53,6 +51,19 @@ head {
   .portfolio .countaner .text-photo {
     text-align: center;
   }
+    .portfolio .text-portfolio h2 {
+    font-size: 80px !important;
+    margin-bottom: 9px !important;
+  }
+  .contact .text-portfolio h2 {
+    font-size: 70px !important;
+    margin-bottom: 9px !important;
+  }
+  .contact .info a {
+    font-size: 20px !important;
+    margin-bottom: 9px !important;
+  }
+
   /* -------------------------------- */
   .about .about-content {
     text-align: center !important;
